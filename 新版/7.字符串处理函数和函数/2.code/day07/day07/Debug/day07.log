@@ -1,0 +1,5 @@
+﻿  21被调文件.c
+d:\0223基础班\c基础第07天（字符串处理函数和函数）\02代码\day07\day07\20主文件.c(1): warning C4005: “_CRT_SECURE_NO_WARNINGS”: 宏重定义
+  d:\0223基础班\c基础第07天（字符串处理函数和函数）\02代码\day07\day07\20主文件.c(1): note: 命令行参数: 参见前面的“_CRT_SECURE_NO_WARNINGS”定义
+21被调文件.obj : error LNK2005: _main 已经在 20主文件.obj 中定义
+D:\0223基础班\C基础第07天（字符串处理函数和函数）\02代码\day07\Debug\day07.exe : fatal error LNK1169: 找到一个或多个多重定义的符号

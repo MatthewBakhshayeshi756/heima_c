@@ -1,0 +1,4 @@
+﻿  01打字游戏.c
+d:\0223基础班\c基础第11天（复合类型）\02代码\day11\day11\01打字游戏.c(41): warning C4244: “=”: 从“time_t”转换到“unsigned int”，可能丢失数据
+d:\0223基础班\c基础第11天（复合类型）\02代码\day11\day11\01打字游戏.c(53): warning C4244: “=”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  day11.vcxproj -> D:\0223基础班\C基础第11天（复合类型）\02代码\day11\Debug\day11.exe

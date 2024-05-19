@@ -1,0 +1,20 @@
+﻿  test02.c
+d:\0223基础班\c基础第03天（helloworld）\02代码\day03\day03\test02.c(12): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+d:\0223基础班\c基础第03天（helloworld）\02代码\day03\day03\test02.c(14): error C2065: “mov”: 未声明的标识符
+d:\0223基础班\c基础第03天（helloworld）\02代码\day03\day03\test02.c(14): error C2146: 语法错误: 缺少“;”(在标识符“a”的前面)
+d:\0223基础班\c基础第03天（helloworld）\02代码\day03\day03\test02.c(15): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+d:\0223基础班\c基础第03天（helloworld）\02代码\day03\day03\test02.c(15): error C2065: “mov”: 未声明的标识符
+d:\0223基础班\c基础第03天（helloworld）\02代码\day03\day03\test02.c(15): error C2146: 语法错误: 缺少“;”(在标识符“b”的前面)
+d:\0223基础班\c基础第03天（helloworld）\02代码\day03\day03\test02.c(16): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+d:\0223基础班\c基础第03天（helloworld）\02代码\day03\day03\test02.c(16): error C2065: “mov”: 未声明的标识符
+d:\0223基础班\c基础第03天（helloworld）\02代码\day03\day03\test02.c(16): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+d:\0223基础班\c基础第03天（helloworld）\02代码\day03\day03\test02.c(16): error C2065: “eax”: 未声明的标识符
+d:\0223基础班\c基础第03天（helloworld）\02代码\day03\day03\test02.c(17): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+d:\0223基础班\c基础第03天（helloworld）\02代码\day03\day03\test02.c(17): error C2065: “add”: 未声明的标识符
+d:\0223基础班\c基础第03天（helloworld）\02代码\day03\day03\test02.c(17): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+d:\0223基础班\c基础第03天（helloworld）\02代码\day03\day03\test02.c(17): error C2065: “eax”: 未声明的标识符
+d:\0223基础班\c基础第03天（helloworld）\02代码\day03\day03\test02.c(18): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+d:\0223基础班\c基础第03天（helloworld）\02代码\day03\day03\test02.c(18): error C2065: “mov”: 未声明的标识符
+d:\0223基础班\c基础第03天（helloworld）\02代码\day03\day03\test02.c(18): error C2146: 语法错误: 缺少“;”(在标识符“c”的前面)
+d:\0223基础班\c基础第03天（helloworld）\02代码\day03\day03\test02.c(19): error C2065: “eax”: 未声明的标识符
+d:\0223基础班\c基础第03天（helloworld）\02代码\day03\day03\test02.c(19): error C2143: 语法错误: 缺少“;”(在“}”的前面)

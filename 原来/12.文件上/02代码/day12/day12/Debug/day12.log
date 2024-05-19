@@ -1,0 +1,6 @@
+﻿  14数据排序.c
+d:\0223基础班\01_c基础第12天（文件上）\02代码\day12\day12\14数据排序.c(27): warning C4244: “初始化”: 从“time_t”转换到“unsigned int”，可能丢失数据
+d:\0223基础班\01_c基础第12天（文件上）\02代码\day12\day12\14数据排序.c(60): warning C4244: “初始化”: 从“time_t”转换到“unsigned int”，可能丢失数据
+d:\0223基础班\01_c基础第12天（文件上）\02代码\day12\day12\14数据排序.c(66): warning C4244: “初始化”: 从“time_t”转换到“unsigned int”，可能丢失数据
+d:\0223基础班\01_c基础第12天（文件上）\02代码\day12\day12\14数据排序.c(88): warning C4244: “初始化”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  day12.vcxproj -> D:\0223基础班\01_C基础第12天（文件上）\02代码\day12\Debug\day12.exe

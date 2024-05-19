@@ -1,0 +1,65 @@
+void MainWindow::on_actionBaocun_triggered()
+{
+    //打开文件
+    QString fileName = QFileDialog::getSaveFileName();
+
+   //转码
+    QTextCodec * codec  = QTextCodec::codecForName("GBK");
+
+    char * file = codec->fromUnicode(fileName).data();
+
+    FILE * fp = fopen(file,"w");
+    if(!fp)
+        return;
+
+    //读取textedit
+    QString txt = ui->textEdit->toPlainText();
+    //转成char*
+    const char * buf = txt.toStdString().data();
+
+    //保存文件
+    fputs(buf,fp);
+
+    fclose(fp);
+
+
+}
+
+void MainWindow::on_action_5_triggered()
+{
+    //ui->textEdit->setText("");
+
+    //提示是用户保存
+    ui->textEdit->clear();
+}
+
+void MainWindow::on_action_7_triggered()
+{
+
+    //提示是用户保存
+    exit(0);
+}
+
+void MainWindow::on_action_8_triggered()
+{
+    //撤销
+    ui->textEdit->undo();
+}
+
+void MainWindow::on_action_9_triggered()
+{
+    //拷贝
+    ui->textEdit->copy();
+}
+
+void MainWindow::on_action_10_triggered()
+{
+    //粘贴
+    ui->textEdit->paste();
+}
+
+void MainWindow::on_action_11_triggered()
+{
+    //剪切
+    ui->textEdit->cut();
+}

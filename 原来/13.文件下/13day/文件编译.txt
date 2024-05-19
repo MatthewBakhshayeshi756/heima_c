@@ -1,0 +1,44 @@
+ /* 1、保存文件（如果文件保存）
+     * 2、组装gcc格式
+     * 3、编译 如果出错提示错误信息   运行程序
+     *
+     */
+    if(fileName ==NULL)
+    {
+
+        fileName = QFileDialog::getSaveFileName();
+        QTextCodec * codec = QTextCodec::codecForName("GBK");
+        const char * file = codec->fromUnicode(fileName).data();
+
+        QString txt = ui->textEdit->toPlainText();
+        const char * buf = txt.toStdString().data();
+        saveFile(file,buf);
+    }
+    else
+    {
+        //gcc -o D:\a.exe D:\a.c
+
+        QString des = fileName;
+        des.replace(".c",".exe");
+        //cout<<des;
+        char  comm[1024]="gcc -o ";
+        strcat(comm,des.toStdString().data());
+        strcat(comm," ");
+        strcat(comm,fileName.toStdString().data());
+
+        //程序编译成功system 返回值为0
+        if(!system(comm))
+        {
+            char cmd[256]="cmd /k ";
+            strcat(cmd,des.toStdString().data());
+            cout<<cmd;
+            system(cmd);
+        }
+        else
+        {
+            //cmd /k gcc -o D:\a.exe D:\a.c
+            char cmd[256] = "cmd /k ";
+            strcat(cmd,comm);
+            system(cmd);
+        }
+    }
